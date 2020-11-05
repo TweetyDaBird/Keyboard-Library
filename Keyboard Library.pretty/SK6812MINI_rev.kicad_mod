@@ -1,4 +1,4 @@
-(module SK6812MINI_rev (layer F.Cu) (tedit 5FA278C9)
+(module SK6812MINI_rev (layer F.Cu) (tedit 5FA2EACC)
   (attr virtual)
   (fp_text reference L20 (at 0.01 -3.05) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -6,6 +6,10 @@
   (fp_text value SK6812MINI (at 0 3.13) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start 1.75 -1.75) (end -1.75 -1.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.75 1.75) (end 1.75 -1.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.75 1.75) (end 1.75 1.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer Edge.Cuts) (width 0.05))
   (fp_line (start 1.75 -1.75) (end 1.75 1.75) (layer Edge.Cuts) (width 0.05))
   (fp_line (start -1.75 -1.75) (end 1.75 -1.75) (layer Edge.Cuts) (width 0.05))
