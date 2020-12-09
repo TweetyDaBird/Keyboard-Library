@@ -1,3 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EVP-AKE31A
+D EVP-AKE31A
+F https://www3.panasonic.biz/ac/e_download/control/switch/light-touch/catalog/sw_lt_eng_3819s_side.pdf?f_cd=402908&via=ok
+$ENDCMP
+#
+$CMP SK6812MINI
+D RGB LED with integrated controller
+K RGB LED NeoPixel Mini addressable
+F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+$ENDCMP
+#
 #End Doc Library

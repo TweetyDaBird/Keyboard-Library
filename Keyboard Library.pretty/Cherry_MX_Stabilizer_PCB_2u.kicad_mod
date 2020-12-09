@@ -1,4 +1,4 @@
-(module Stabilizer_MX_2u (layer F.Cu) (tedit 5FB38ED5)
+(module Cherry_MX_Stabilizer_PCB_2u (layer F.Cu) (tedit 5FB38ED5)
   (descr "MX-style stabilizer mount")
   (tags MX,cherry,gateron,kailh,pg1511,stabilizer,stab)
   (fp_text reference ST1 (at 0 0) (layer F.Fab) hide
