@@ -1,0 +1,14 @@
+(module Cherry_MX_Plate_Hole_Placeholder (layer F.Cu) (tedit 5FD86C71)
+  (descr "MX-style keyswitch with reversible Kailh socket mount")
+  (tags MX,cherry,gateron,kailh,pg1511,socket)
+  (fp_text reference Ref** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_line (start -6.9 6.9) (end -6.9 -6.9) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 6.9 6.9) (end -6.9 6.9) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 6.9 6.9) (end 6.9 -6.9) (layer Edge.Cuts) (width 0.1))
+  (fp_line (start 6.9 -6.9) (end -6.9 -6.9) (layer Edge.Cuts) (width 0.1))
+)
